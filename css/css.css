@@ -1,0 +1,105 @@
+html {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    min-width:260px;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body {
+    margin: 0;
+    min-width:250px;
+}
+main {
+    text-align: center;
+    margin: 0;
+}
+main h1 {
+    margin-top: 0;
+    font-size: 4rem;
+}
+@media (max-width: 280px) {
+    main h1 {
+        font-size: 2rem;
+    }
+}
+main h2 {
+    font-size: 2rem;
+}
+@media (max-width: 280px) {
+    main h2 {
+        font-size: 1rem;
+    }
+}
+#title {
+    background-color: black;
+    font-family: 'Overpass', sans-serif;
+    border-left: .5rem solid red;
+    border-right: .5rem solid red;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+h2 {
+
+    margin-bottom: 0;
+}
+div#img-div {
+    margin-top: 1rem;
+}
+img#image {
+    max-width: 700px;
+    width: 90%;
+}
+@media (max-width: 768px) {
+    img#image {
+        max-width: 300px
+    }
+}
+h3#img-caption {
+    color: black;
+    background-color: red;
+    font-family: 'Overpass', sans-serif;
+}
+#tribute-info {
+    margin: 0 auto;
+    max-width: 70%;
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.7rem;
+}
+@media (max-width: 425px) {
+    #tribute-info {
+    font-size: 1.1rem;
+}
+}
+#tribute-info h2 {
+    font-size: 3rem;
+    text-decoration: underline;
+}
+@media (max-width: 425px) {
+    #tribute-info h2 {
+    font-size: 2rem;
+}
+}
+footer.tribute {
+    background-color: red;
+}
+footer.tribute p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 99%;
+    font-family: 'Overpass', sans-serif;
+    padding-top: .5rem;
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+@media (max-width: 330px) {
+img.fin {
+    width: 150x;
+}
+}
